@@ -10,17 +10,17 @@
         android:id="@+id/editTextMensagem"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="9dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="@string/mensagem"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/buttonEnviar"
         app:layout_constraintEnd_toStartOf="@+id/buttonEnviar"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        android:importantForAutofill="no" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/buttonEnviar"
